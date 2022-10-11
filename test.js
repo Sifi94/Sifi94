@@ -1,4 +1,5 @@
 function getmax(a, b, c) {
+    console.log(arguments)
     max = 0;
     if (a > b && a > c) {
         return a;
